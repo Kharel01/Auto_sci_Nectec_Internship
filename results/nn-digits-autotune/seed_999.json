@@ -1,0 +1,23 @@
+{
+  "seed": 999,
+  "baseline": {
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "alpha": 0.0001,
+    "validation_accuracy": 0.9861111111111112,
+    "test_accuracy": 0.975
+  },
+  "best_tuned_model": {
+    "seed": 999,
+    "trial_id": 5,
+    "hidden_dim": 128,
+    "learning_rate": 0.003,
+    "batch_size": 32,
+    "alpha": 0.0001,
+    "validation_accuracy": 0.9916666666666667,
+    "test_accuracy": 0.9777777777777777,
+    "training_time_seconds": 0.16277027130126953
+  },
+  "improvement_over_baseline": 0.002777777777777768
+}
